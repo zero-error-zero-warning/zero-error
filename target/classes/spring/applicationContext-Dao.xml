@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+
+
+
+    <!--加载数据库配置文件-->
+    <context:property-placeholder location="classpath:properties/dbcp.properties" />
+
+    <!--配置数据源   dbcp数据库连接池-->
+    <bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource" >
+        <property name="driverClassName" value="${jdbc.driver}" />
+        <property name="url" value="${jdbc.url}" />
+        <property name="username" value="${jdbc.username}" />
+        <property name="password" value="${jdbc.password}" />
+        <property name="maxActive" value="${jdbc.connectionPool.maxActive}"/>
+        <property name="maxIdle" value="${jdbc.connectionPool.maxIdle}"/>
+        <property name="initialSize" value="${jdbc.connectionPool.initialSize}"/>
+        <property name="testWhileIdle" value="${jdbc.connectionPool.testWhileIdle}"/>
+        <property name="minIdle" value="${jdbc.connectionPool.minIdle}"/>
+        <property name="maxWait" value="${jdbc.connectionPool.maxWait}"/>
+        <property name="testOnBorrow" value="${jdbc.connectionPool.testOnBorrow}"/>
+    </bean>
+
+
+    <!--在spring容器中创建  MyBatis 的核心类   SqlSessionFactory-->
+    <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <property name="dataSource" ref="dataSource"/>
+        <!--加载所有的mapper文件-->
+        <property name="mapperLocations"  value="classpath:mapper/*.xml"/>
+    </bean>
+
+
+
+    <!--将 MyBatis的核心类  SqlSessionFactory交给spring管理      -->
+    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"/>
+        <property name="basePackage" value="mapper"/>
+    </bean>
+
+
+
+
+
+    <!--使用注解  @Autowired的声明   -->
+    <bean class="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor" />
+
+
+
+
+
+
+
+
+
+
+
+</beans>
