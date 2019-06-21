@@ -3,7 +3,7 @@
 <h2>Hello World!</h2>
 
 
-<a href="/employee/employeeLogin">测试</a>
+<a href="/employee/test">测试</a>
 
 
 

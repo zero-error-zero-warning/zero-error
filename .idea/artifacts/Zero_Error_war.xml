@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="war" name="Zero_Error:war">
-    <output-path>$PROJECT_DIR$/target</output-path>
-    <root id="archive" name="Zero_Error.war">
-      <element id="artifact" artifact-name="Zero_Error:war exploded" />
-    </root>
-  </artifact>
-</component>

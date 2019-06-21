@@ -49,4 +49,8 @@ public class Employees {
 
 	}
 
+	@RequestMapping("test")
+	public void test(){
+		System.out.println("sadfgags");
+	}
 }
