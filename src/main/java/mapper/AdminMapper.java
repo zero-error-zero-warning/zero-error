@@ -10,5 +10,5 @@ public interface AdminMapper {
     * @Author: 陈泯全
     * @Date: 2019/6/22
     */
-    public Admin getAdminByAccount(String uername, String password);
+    public Admin getAdminByAccount(String username, String password);
 }

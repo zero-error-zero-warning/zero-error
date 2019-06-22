@@ -19,7 +19,8 @@ public interface SalesOrderDetailMapper {
     * @return:  销售详情视图
     * @Author: 陈泯全
     * @Date: 2019/6/22 
-    */ 
+    */
+
     public List<SalesOrderDetail> getSalesOrderDetailByDefault();
 
     /**
