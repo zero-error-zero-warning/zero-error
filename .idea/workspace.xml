@@ -7,30 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="863fe121-9f9e-4bc0-8806-185dc2fecb25" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/mapper/RestaurantTablesMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mapper/SalesOrderDetailMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mapper/SalesOrderDetailMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/SalesOrderDetail.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mapper/AdminMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mapper/AdminMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mapper/AdminMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mapper/AdminMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mapper/CustomerChoosedMenuMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mapper/CustomerChoosedMenuMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mapper/CustomerChoosedMenuMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mapper/CustomerChoosedMenuMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mapper/DiscountMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mapper/DiscountMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mapper/DiscountMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mapper/DiscountMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mapper/EmployeesMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mapper/EmployeesMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mapper/EmployeesMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mapper/EmployeesMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/mapper/GoodsCategoryMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mapper/GoodsCategoryMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mapper/GoodsCategoryMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mapper/GoodsCategoryMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mapper/GoodsMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mapper/GoodsMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mapper/GoodsMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mapper/GoodsMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mapper/RestaurantTablesMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mapper/RestaurantTablesMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mapper/SalesOrderMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mapper/SalesOrderMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mapper/SalesOrderMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mapper/SalesOrderMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/mapper/VipMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mapper/VipMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mapper/VipMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mapper/VipMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mapper/WorkAttendanceMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mapper/WorkAttendanceMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mapper/WorkAttendanceMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mapper/WorkAttendanceMapper.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,7 +19,32 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/mapper/VipMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="428">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/mapper/GoodsCategoryMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="278">
+              <caret line="32" column="6" lean-forward="true" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -72,13 +76,11 @@
         <option value="$PROJECT_DIR$/src/main/java/mapper/AdminMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/mapper/RestaurantTablesMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/mapper/RestaurantTablesMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/mapper/GoodsCategoryMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/mapper/GoodsCategoryMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/mapper/GoodsMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/mapper/GoodsMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/mapper/CustomerChoosedMenuMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/mapper/CustomerChoosedMenuMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/mapper/VipMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/mapper/VipMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/mapper/SalesOrderMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/mapper/SalesOrderMapper.xml" />
@@ -90,6 +92,8 @@
         <option value="$PROJECT_DIR$/src/main/java/model/SalesOrderDetail.java" />
         <option value="$PROJECT_DIR$/src/main/java/mapper/SalesOrderDetailMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/mapper/SalesOrderDetailMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/mapper/GoodsCategoryMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mapper/VipMapper.java" />
       </list>
     </option>
   </component>
@@ -107,10 +111,10 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="792" />
-    <option name="y" value="-22" />
-    <option name="width" value="978" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="791" />
+    <option name="y" value="-23" />
+    <option name="width" value="979" />
     <option name="height" value="530" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -122,6 +126,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -129,11 +134,36 @@
               <item name="Zero_Error" type="b2602c69:ProjectViewProjectNode" />
               <item name="zero-error" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Zero_Error" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zero-error" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Zero_Error" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zero-error" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Zero_Error" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zero-error" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Zero_Error" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zero-error" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -287,27 +317,26 @@
       <workItem from="1561081960993" duration="428000" />
       <workItem from="1561082693795" duration="9164000" />
       <workItem from="1561132099913" duration="8363000" />
+      <workItem from="1561276091956" duration="1036000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18145000" />
+    <option name="totallyTimeSpent" value="19181000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Web" order="0" side_tool="true" />
       <window_info id="Designer" order="1" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.3069705" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.2272118" />
       <window_info id="Structure" order="3" side_tool="true" />
       <window_info id="JRebel" order="4" side_tool="true" />
       <window_info id="Image Layers" order="5" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="UI Designer" order="7" />
       <window_info id="Favorites" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Find" weight="0.3286119" />
       <window_info anchor="bottom" id="Run" order="0" weight="0.6175637" />
       <window_info anchor="bottom" id="Java Enterprise" order="1" weight="0.3286119" />
       <window_info anchor="bottom" id="TODO" order="2" />
@@ -318,9 +347,11 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="JRebel Executor" order="8" />
       <window_info anchor="bottom" id="Application Servers" order="9" weight="0.32949308" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32884097" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3286119" />
       <window_info anchor="bottom" id="JRebel Console" order="11" side_tool="true" />
-      <window_info anchor="right" id="Maven" />
+      <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Find" order="14" weight="0.3286119" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Theme Preview" order="2" />
@@ -328,6 +359,7 @@
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" id="Palette&#9;" order="5" />
       <window_info anchor="right" id="Maven Projects" order="6" />
+      <window_info anchor="right" id="Maven" order="7" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -381,9 +413,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mapper/RestaurantTabelsMapper.tld">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mapper/RestaurantTabelsMapper.tld" />
     <entry file="file://$PROJECT_DIR$/src/main/java/service/AdminService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
@@ -391,14 +421,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mapper/RestaurantTablesMapper.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="56" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="56" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mapper/RestaurantTablesMapper.fxml" />
     <entry file="file://$PROJECT_DIR$/src/main/java/mapper/AdminMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -458,16 +481,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mapper/VipMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="34" column="36" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/mapper/SalesOrderMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
@@ -510,16 +523,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1275">
           <caret line="51" column="41" selection-start-line="51" selection-start-column="41" selection-end-line="51" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mapper/GoodsCategoryMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="29" column="21" lean-forward="true" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -664,6 +667,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="475">
           <caret line="31" column="61" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mapper/GoodsCategoryMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="32" column="6" lean-forward="true" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mapper/VipMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
