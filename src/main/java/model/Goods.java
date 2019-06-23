@@ -11,13 +11,14 @@ public class Goods {
     private int goodsId;        //商品id
     private String name;     //商品名称
     private float price;     //商品价格
-    private GoodsCategory category;   //商品类型     与商品类型类相关联
+    private String goodsCategoryId;   //商品类型     与商品类型类相关联
+    private String pictureUrl;
 
-    public Goods(int goodsId, String name, float price, GoodsCategory category) {
+    public Goods(int goodsId, String name, float price, String goodsCategoryId) {
         this.goodsId = goodsId;
         this.name = name;
         this.price = price;
-        this.category = category;
+        this.goodsCategoryId = goodsCategoryId;
     }
 
 
@@ -49,14 +50,20 @@ public class Goods {
         this.price = price;
     }
 
-    public GoodsCategory getCategory() {
-        return category;
+
+    public String getGoodsCategoryId() {
+        return goodsCategoryId;
     }
 
-    public void setCategory(GoodsCategory category) {
-        this.category = category;
+    public void setGoodsCategoryId(String goodsCategoryId) {
+        this.goodsCategoryId = goodsCategoryId;
     }
 
+    public String getPictureUrl() {
+        return pictureUrl;
+    }
 
-
+    public void setPictureUrl(String pictureUrl) {
+        this.pictureUrl = pictureUrl;
+    }
 }

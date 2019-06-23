@@ -31,7 +31,7 @@ public interface CustomerChoosedMenuMapper {
     * @Author: 陈泯全
     * @Date: 2019/6/22
     */
-    public List<CustomerChoosedMenu> getCusChooseMenuByWaterNum(int num);
+    public List<CustomerChoosedMenu> getCusChooseMenuByWaterNum(String num);
 
 
 }

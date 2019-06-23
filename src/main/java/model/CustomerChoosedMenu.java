@@ -10,12 +10,20 @@ import java.util.List;
 
 public class CustomerChoosedMenu {
 
-    private List<Integer> ccmId;    //  顾客所点菜的id     一个（桌）顾客可以点多个菜
+    private int ccmId;    //  顾客所点菜的id     一个（桌）顾客可以点多个菜
     private int waterNumId;  //流水单号
     private int goodsId;   // 商品id
     private int num;   //商品数量
 
-    public CustomerChoosedMenu(List<Integer> ccmId, int waterNumId, int goodsId, int num) {
+    public int getCcmId() {
+        return ccmId;
+    }
+
+    public void setCcmId(int ccmId) {
+        this.ccmId = ccmId;
+    }
+
+    public CustomerChoosedMenu(int ccmId, int waterNumId, int goodsId, int num) {
         this.ccmId = ccmId;
         this.waterNumId = waterNumId;
         this.goodsId = goodsId;
@@ -26,13 +34,6 @@ public class CustomerChoosedMenu {
         super();
     }
 
-    public List<Integer> getCcmId() {
-        return ccmId;
-    }
-
-    public void setCcmId(List<Integer> ccmId) {
-        this.ccmId = ccmId;
-    }
 
     public int getWaterNumId() {
         return waterNumId;

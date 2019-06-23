@@ -3,8 +3,19 @@
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="mapper.RestaurantTablesMapper">
-    <insert id="addRestaurantTable"></insert>
-    <delete id="deleteRestaurantTable"></delete>
-    <select id="getRestaurantTabelsByDefault"></select>
-    <select id="getRestaurantTabelsById"></select>
+    <insert id="addRestaurantTable" parameterType="RestaurantTables" useGeneratedKeys="true" keyProperty="tableId">
+          insert into RestaurantTables (status) value (#{status})
+    </insert>
+
+    <delete id="deleteRestaurantTable" parameterType="String">
+          delete from RestaurantTables where tableId=#{id}
+    </delete>
+
+    <select id="getRestaurantTabelsByDefault"  resultType="RestaurantTables">
+          select tableId,status from RestaurantTables
+    </select>
+
+    <select id="getRestaurantTabelsById" resultType="RestaurantTables" parameterType="String">
+        select tableId,status from RestaurantTables where tableId=#{id}
+    </select>
 </mapper>

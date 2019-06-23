@@ -3,6 +3,7 @@ package mapper;
 import model.Employees;
 
 import java.util.List;
+import java.util.Map;
 
 
 public interface EmployeesMapper {
@@ -10,7 +11,7 @@ public interface EmployeesMapper {
     /**
      * @Description: 添加员工
      * @Param:  员工实体
-     * @return:  受影响的行数
+     * @return:  受影响的行数【传入的参数的addEmployee被填充为主键】
      * @Author: 陈泯全
      * @Date: 2019/6/22
      */
@@ -19,7 +20,7 @@ public interface EmployeesMapper {
     /**
      * @Description: 根据员工id删除员工
      * @Param:  员工id
-     * @return:  受到影响的行数
+     * @return:  受到影响的行数,删除就是这个返回值 ，已经测试了
      * @Author: 陈泯全
      * @Date: 2019/6/22
      */
@@ -27,12 +28,12 @@ public interface EmployeesMapper {
 
     /** 
     * @Description:  查询用户信息
-    * @Param:  用户名，密码
+    * @Param:  用户名，密码:map String username, String password
     * @return: 返回这个用户
     * @Author: 陈泯全
     * @Date: 2019/6/22 
     */ 
-    public Employees getEmployeesByAccount(String username, String password);
+    public Employees getEmployeesByAccount(Map map);
 
     /**
     * @Description: 查询所有的员工
