@@ -3,5 +3,10 @@
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="mapper.DiscountMapper">
-
+    <select id="getDiscount" resultType="Discount">
+        select discount from discountTable where discountId=1
+    </select>
+    <update id="updateDiscount" parameterType="Discount">
+        update discountTable set discount=#{discount}  where discountId=1
+    </update>
 </mapper>

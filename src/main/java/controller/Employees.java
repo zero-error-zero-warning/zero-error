@@ -1,6 +1,8 @@
 package controller;
 
 
+import mapper.EmployeesMapper;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
@@ -13,7 +15,8 @@ import java.util.Map;
 @RequestMapping("/employee")
 public class Employees {
 
-
+	@Autowired
+	EmployeesMapper e;
 
 
 	@ResponseBody
@@ -52,5 +55,11 @@ public class Employees {
 	@RequestMapping("test")
 	public void test(){
 		System.out.println("sadfgags");
+		model.Employees em = new model.Employees();
+		em.setName("代睿");
+		em.setPhoneNum("18200244227");
+		em.setText("哈哈哈");
+		int i = e.addEmployee(em);
+		System.out.println(i);
 	}
 }

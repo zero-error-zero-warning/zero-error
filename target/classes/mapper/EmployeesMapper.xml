@@ -4,4 +4,31 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="mapper.EmployeesMapper">
 
+    <insert id="addEmployee" parameterType="Employees" useGeneratedKeys="true" keyProperty="employeeId" >
+        INSERT into employees (name,phoneNum,password,text) VALUES (#{name},#{phoneNum},'aa123456',#{text})
+    </insert>
+
+    <delete id="deleteEmployeeById" parameterType="String">
+        delete from employees where employeeId = #{id}
+    </delete>
+
+    <select id="getEmployeesByAccount" parameterType="hashmap" resultType="Employees">
+        SELECT employeeId,name,phoneNum,password,text FROM employees WHERE phoneNum = #{username} and  password = #{password}
+    </select>
+
+    <select id="getEmployeesByDefault" resultType="Employees">
+        SELECT employeeId,name,phoneNum,password,text FROM employees
+    </select>
+
+    <select id="getEmployById" parameterType="String" resultType="Employees">
+        SELECT employeeId,name,phoneNum,password,text FROM employees WHERE employeeId = #{id}
+    </select>
+
+    <!--<select id="getEmployeesByTime"></select>-->
+
+    <update id="resetEmployeePwdById" parameterType="String">
+        update employees set password = 'aa123456' where employeeId=#{id}
+    </update>
+
+    <update id="updateEmployee"></update>
 </mapper>

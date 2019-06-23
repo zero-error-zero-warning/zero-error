@@ -3,5 +3,20 @@
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="mapper.GoodsMapper">
+    <insert id="addGoods" parameterType="Goods" useGeneratedKeys="true" keyProperty="goodsId">
+          insert into goods (name,price,goodsCategoryId,pictureUrl) value (#{name},#{price},#{goodsCategoryId},#{pictureUrl})
+    </insert>
+    <delete id="deleteGoodsById" parameterType="String">
+          delete from goods where goodsId = #{id}
+    </delete>
+    <delete id="deleteGoodsByCategoryId" parameterType="String">
+          delete from goods where goodsCategoryId = #{id}
+    </delete>
+    <select id="getGoodsByDefault" resultType="Goods">
+          select goodsId,name,price,goodsCategoryId,pictureUrl from goods
+    </select>
+    <select id="getGoodsByCategory" parameterType="String" resultType="Goods">
+          select goodsId,name,price,goodsCategoryId,pictureUrl from goods where goodsCategoryId =#{id}
+    </select>
 
 </mapper>

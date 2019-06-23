@@ -35,6 +35,8 @@
 
 
 
+
+
     <!--将 MyBatis的核心类  SqlSessionFactory交给spring管理      -->
     <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
         <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"/>
