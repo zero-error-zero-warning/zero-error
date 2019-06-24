@@ -6,7 +6,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import service.SalesOrderDetailService;
 
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 @Service
 public class SalesOrderDetailImpl  implements  SalesOrderDetailService{
@@ -35,6 +37,12 @@ public class SalesOrderDetailImpl  implements  SalesOrderDetailService{
 		*
 		* */
 	public List<SalesOrderDetail> getSalesOrderDetailByParams(String category, String startTime, String endTime) {
-		return salesOrderDetailMapper.getSalesOrderDetailByParams(category,startTime,endTime);
+		Map map=new HashMap();
+		map.put("category",category);
+		map.put("startTime",startTime);
+		map.put("endTime",endTime);
+
+
+		return salesOrderDetailMapper.getSalesOrderDetailByParams(map);
 	}
 }

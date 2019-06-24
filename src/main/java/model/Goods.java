@@ -11,13 +11,15 @@ public class Goods {
     private int goodsId;        //商品id
     private String name;     //商品名称
     private float price;     //商品价格
+	private String pictureUrl;   //商品图片的路径
     private GoodsCategory category;   //商品类型     与商品类型类相关联
 
-    public Goods(int goodsId, String name, float price, GoodsCategory category) {
+    public Goods(int goodsId, String name, float price, GoodsCategory category,String pictureUrl) {
         this.goodsId = goodsId;
         this.name = name;
         this.price = price;
         this.category = category;
+        this.pictureUrl=pictureUrl;
     }
 
 
@@ -58,5 +60,11 @@ public class Goods {
     }
 
 
+	public String getPictureUrl() {
+		return pictureUrl;
+	}
 
+	public void setPictureUrl(String pictureUrl) {
+		this.pictureUrl = pictureUrl;
+	}
 }

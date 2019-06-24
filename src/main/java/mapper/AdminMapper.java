@@ -1,6 +1,9 @@
 package mapper;
 
 import model.Admin;
+import org.apache.ibatis.annotations.Param;
+
+import java.util.Map;
 
 public interface AdminMapper {
     /**
@@ -10,5 +13,14 @@ public interface AdminMapper {
     * @Author: 陈泯全
     * @Date: 2019/6/22
     */
-    public Admin getAdminByAccount(String username, String password);
+
+    public Admin getAdminByAccount(Map map);
 }
+
+
+
+
+
+
+
+

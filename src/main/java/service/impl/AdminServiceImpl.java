@@ -6,6 +6,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import service.AdminService;
 
+import java.util.HashMap;
+import java.util.Map;
+
 @Service
 public class AdminServiceImpl  implements AdminService{
 
@@ -24,6 +27,9 @@ public class AdminServiceImpl  implements AdminService{
 	*
 	* */
 	public Admin getAdminByAccount(String username, String password) {
-		return adminMapper.getAdminByAccount(username,password);
+		Map map=new HashMap();
+		map.put("username",username);
+		map.put("password",password);
+		return adminMapper.getAdminByAccount(map);
 	}
 }

@@ -10,7 +10,7 @@
     <!--扫描包-->
 
 
- <context:component-scan base-package="controller"/>
+    <context:component-scan base-package="controller"/>
     <context:component-scan base-package="service.impl"/>
     <!--适配器-->
     <tx:annotation-driven/>
@@ -24,7 +24,7 @@
     </bean>
 
 
-    <!--跨域请求的配置-->
+
 
 
 

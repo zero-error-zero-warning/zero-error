@@ -1,8 +1,10 @@
 package mapper;
 
 import model.SalesOrderDetail;
+import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
+import java.util.Map;
 
 /**
  * @author 陈泯全
@@ -30,5 +32,5 @@ public interface SalesOrderDetailMapper {
     * @Author: 陈泯全
     * @Date: 2019/6/22
     */
-    public List<SalesOrderDetail> getSalesOrderDetailByParams(String category,String startTime,String endTime);
+    public List<SalesOrderDetail> getSalesOrderDetailByParams(Map map);
 }
