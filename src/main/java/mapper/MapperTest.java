@@ -15,10 +15,8 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import javax.annotation.Resource;
 import javax.sound.midi.Soundbank;
 import java.sql.SQLOutput;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.text.SimpleDateFormat;
+import java.util.*;
 
 /**
  * @program: Zero_Error
@@ -53,13 +51,12 @@ public class MapperTest {
 
     @Autowired
     private VipMapper vipMapper;
-    /** 
-    * @Description: 测试adminmapper
-    * @Param:  
-    * @return:  
-    * @Author: 陈泯全
-    * @Date: 2019/6/23 
-    */ 
+
+    @Autowired
+    private CustomerChoosedMenuMapper ccmm;
+
+    @Autowired
+    private SalesOrderMapper so;
     @Test
     public void testAdminMapper(){
         //根据账号查询
@@ -73,20 +70,36 @@ public class MapperTest {
         System.out.println(em.getAdminId());
     }
 
-
-
     @Test
     public void testCustomerChhsedMenuMapper(){
         //添加选菜单
-        List<CustomerChoosedMenu> ccm=new ArrayList<CustomerChoosedMenu>();
-        String fina="";
-        for(int x=0 ; x < 5 ; x++){
-            CustomerChoosedMenu cc =new CustomerChoosedMenu();
-            cc.setGoodsId(4);
-            cc.setNum(2);
+//       String i = ccmm.getMaxWaterNum();
+//        List<CustomerChoosedMenu> ccm=new ArrayList<CustomerChoosedMenu>();
+//        CustomerChoosedMenu a =new CustomerChoosedMenu();
+//        a.setGoodsId(4);
+//        a.setWaterNumId(Integer.parseInt(i)+1);
+//        a.setNum(2);
+//        ccm.add(a);
+//
+//        CustomerChoosedMenu b =new CustomerChoosedMenu();
+//        b.setGoodsId(5);
+//        b.setWaterNumId(Integer.parseInt(i)+1);
+//        b.setNum(1);
+//        ccm.add(b);
+//
+//        CustomerChoosedMenu c =new CustomerChoosedMenu();
+//        c.setGoodsId(6);
+//        c.setWaterNumId(Integer.parseInt(i)+1);
+//        c.setNum(1);
+//        ccm.add(c);
+//        System.out.println(ccmm.addCuschooseMenu(ccm));
 
-            ccm.add(cc);
-        }
+        //查询
+//        System.out.println(ccmm.getCusChooseMenuBydefault().size());
+
+        //查询
+        System.out.println(ccmm.getCusChooseMenuByWaterNum("1").size());
+
     }
 
     @Test
@@ -207,10 +220,22 @@ public class MapperTest {
 //
 //    }
 
-//    @Test
-//    public void testSalesOrderMapper(){
-//
-//    }
+    @Test
+    public void testSalesOrderMapper(){
+        SalesOrder s= new SalesOrder();
+        s.setEmployeeId(20);
+        s.setVipId(2);
+        s.setWaterNumId(1);
+        float sum = 12.56f;
+        float dissum =sum*0.8f;
+        s.setSumPrice(sum);
+        s.setDiscountSumPrice(dissum);
+        Date date= new Date();
+        SimpleDateFormat sd =new SimpleDateFormat("yyyy-MM-dd");
+        String timestr = sd.format(date);
+        s.setTime(timestr);
+        System.out.println(so.addSalesOrder(s));
+    }
 
     @Test
     public void testVip(){
@@ -228,8 +253,8 @@ public class MapperTest {
         System.out.println(vipMapper.getVipByNum("18200244217").getName());
     }
 
-//    @Test
-//    public void testWorkAttendanceMapper(){
-//
-//    }
+    @Test
+    public void testWorkAttendanceMapper(){
+
+    }
 }

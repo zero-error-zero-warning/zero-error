@@ -33,5 +33,12 @@ public interface CustomerChoosedMenuMapper {
     */
     public List<CustomerChoosedMenu> getCusChooseMenuByWaterNum(String num);
 
-
+    /** 
+    * @Description: 获取目前数据库最大的waterNum
+    * @Param:  
+    * @return:  waterNum
+    * @Author: 陈泯全
+    * @Date: 2019/6/24 
+    */ 
+    public String getMaxWaterNum();
 }

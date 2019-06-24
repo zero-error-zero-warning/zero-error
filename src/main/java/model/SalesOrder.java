@@ -14,11 +14,29 @@ public class SalesOrder {
     private int employeeId;   //收营员
     private int vipId; //会员号
     private int waterNumId;  //流水单号    和 CustomerChoosedMenu类的  waterNumId相对应
-    private int sumPrice;        //总价
-    private int discountSumPrice;   //折后价
+    private float sumPrice;        //总价
+    private float discountSumPrice;   //折后价
+
+    public void setSumPrice(float sumPrice) {
+        this.sumPrice = sumPrice;
+    }
+
+    public void setDiscountSumPrice(float discountSumPrice) {
+        this.discountSumPrice = discountSumPrice;
+    }
+
+    public float getSumPrice() {
+        return sumPrice;
+    }
+
+
+    public float getDiscountSumPrice() {
+        return discountSumPrice;
+    }
+
     private String time;    //销售时间
 
-    public SalesOrder(int salesOrderId, int employeeId, int vipId, int waterNumId, int sumPrice, int discountSumPrice, String time) {
+    public SalesOrder(int salesOrderId, int employeeId, int vipId, int waterNumId, float sumPrice, float discountSumPrice, String time) {
         this.salesOrderId = salesOrderId;
         this.employeeId = employeeId;
         this.vipId = vipId;
@@ -65,21 +83,6 @@ public class SalesOrder {
         this.waterNumId = waterNumId;
     }
 
-    public int getSumPrice() {
-        return sumPrice;
-    }
-
-    public void setSumPrice(int sumPrice) {
-        this.sumPrice = sumPrice;
-    }
-
-    public int getDiscountSumPrice() {
-        return discountSumPrice;
-    }
-
-    public void setDiscountSumPrice(int discountSumPrice) {
-        this.discountSumPrice = discountSumPrice;
-    }
 
     public String getTime() {
         return time;
