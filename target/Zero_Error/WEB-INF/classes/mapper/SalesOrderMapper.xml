@@ -4,4 +4,9 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="mapper.SalesOrderMapper">
 
+    <insert id="addSalesOrder" parameterType="SalesOrder" useGeneratedKeys="true" keyProperty="employeeId">
+        insert into salesOrder (employeeId,vipId,waterNumId,sumPrice,discountSumPrice,time)
+        value (#{employeeId},#{vipId},#{waterNumId},#{sumPrice},#{discountSumPrice},#{time})
+
+    </insert>
 </mapper>

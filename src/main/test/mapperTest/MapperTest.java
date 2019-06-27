@@ -1,4 +1,4 @@
-package mapper;
+package mapperTest;
 import model.*;
 import org.apache.ibatis.session.SqlSession;
 import org.junit.Before;

@@ -29,6 +29,10 @@
     <!--在spring容器中创建  MyBatis 的核心类   SqlSessionFactory-->
     <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
         <property name="dataSource" ref="dataSource"/>
+
+        <!--mybatis设置别名-->
+        <property name="typeAliasesPackage" value="model"/>
+
         <!--加载所有的mapper文件-->
         <property name="mapperLocations"  value="classpath:mapper/*.xml"/>
     </bean>

@@ -35,8 +35,8 @@ public class GoodsServiceImpl  implements GoodsService{
 		*   @Return: 1：成功   0：失败
 		*
 		* */
-	public int deleteGoodsByDefault(String id) {
-		return goodsMapper.deleteGoodsByDefault(id);
+	public int deleteGoodsById(String id) {
+		return goodsMapper.deleteGoodsById(id);
 	}
 
 	/*
@@ -47,8 +47,9 @@ public class GoodsServiceImpl  implements GoodsService{
 		*   @Return: 1：成功   0：失败
 		*
 		* */
-	public int deleteGoodsByCategory(String id) {
-		return goodsMapper.deleteGoodsByDefault(id);
+	public int deleteGoodsByCategoryId(String id) {
+
+		return goodsMapper.deleteGoodsByCategoryId(id);
 	}
 
 	/*

@@ -22,7 +22,7 @@ public interface VipService {
 	 * @Author: 何袁辉
 	 * @Date: 2019/6/22
 	 */
-	public List<Vip> getVipById(String num);
+	public Vip getVipByNum(String num);
 
 
 	/**

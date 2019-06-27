@@ -49,7 +49,20 @@ public class CustomerChoosedMenuServiceImpl  implements CustomerChoosedMenuServi
 		*   @Return: 顾客点菜单
 		*
 		* */
-	public List<CustomerChoosedMenu> getCusChooseMenuByWaterNum(int num) {
+	public List<CustomerChoosedMenu> getCusChooseMenuByWaterNum(String  num) {
 		return customerChoosedMenuMapper.getCusChooseMenuByWaterNum(num);
+	}
+
+
+
+	/**
+	 * @Description: 获取目前数据库最大的waterNum
+	 * @Param:
+	 * @return:  waterNum
+	 * @Author: 何袁辉
+	 * @Date: 2019/6/24
+	 */
+	public String getMaxWaterNum() {
+		return customerChoosedMenuMapper.getMaxWaterNum();
 	}
 }

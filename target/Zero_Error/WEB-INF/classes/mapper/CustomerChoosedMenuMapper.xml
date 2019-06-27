@@ -4,4 +4,23 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="mapper.CustomerChoosedMenuMapper">
 
+    <insert id="addCuschooseMenu" parameterType="java.util.List" useGeneratedKeys="false" >
+            insert into customerChoosedMenu (waterNumId,goodsId,num) values
+            <foreach collection="list" item="item" index="index" separator=",">
+                (#{item.waterNumId},#{item.goodsId,jdbcType=INTEGER},#{item.num,jdbcType=INTEGER})
+            </foreach>
+    </insert>
+
+    <select id="getCusChooseMenuBydefault" resultType="CustomerChoosedMenu">
+            select ccmId,waterNumId,goodsId,num from CustomerChoosedMenu
+    </select>
+
+    <select id="getCusChooseMenuByWaterNum" parameterType="String" resultType="CustomerChoosedMenu">
+            select ccmId,waterNumId,goodsId,num from CustomerChoosedMenu where waterNumId=#{id}
+    </select>
+
+    <select id="getMaxWaterNum" resultType="String">
+        select IFNULL(max(waterNumId),'0') waterNumId from customerChoosedMenu
+    </select>
+
 </mapper>

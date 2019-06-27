@@ -15,9 +15,16 @@ public class Employees {
     private int employeeId;     //员工编号
     private String name;      //员工姓名
     private String phoneNum;    //员工电话
-    private String password;   //员工密码
+
+	private String password;   //员工密码
     private String text;      //员工备注
 
+	public Employees(String name, String phoneNum, String password, String text) {
+		this.name = name;
+		this.phoneNum = phoneNum;
+		this.password = password;
+		this.text = text;
+	}
     public Employees(int employeeId, String name, String phoneNum, String password, String text) {
         this.employeeId = employeeId;
         this.name = name;

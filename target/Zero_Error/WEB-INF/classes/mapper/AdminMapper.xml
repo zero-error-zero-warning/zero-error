@@ -4,4 +4,8 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="mapper.AdminMapper">
 
+    <select id="getAdminByAccount" parameterType="hashmap" resultType="model.Admin">
+        select adminId,name,phoneNum,password from admin where phoneNum=#{username} and password = #{password}
+    </select>
 </mapper>
+

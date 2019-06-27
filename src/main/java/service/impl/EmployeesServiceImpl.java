@@ -6,7 +6,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import service.EmployeesService;
 
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 @Service
 public class EmployeesServiceImpl  implements EmployeesService{
@@ -52,7 +54,10 @@ public class EmployeesServiceImpl  implements EmployeesService{
 			*
 			* */
 	public Employees getEmployeesByAccount(String username, String password) {
-		return employeesMapper.getEmployeesByAccount(username,password);
+		Map<String,String> map=new HashMap();
+		map.put("username",username);
+		map.put("password",password);
+		return employeesMapper.getEmployeesByAccount(map);
 	}
 
 	/*

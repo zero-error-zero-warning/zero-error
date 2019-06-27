@@ -27,6 +27,9 @@ public class VipServiceImpl  implements VipService{
 		return vipMapper.addVip(vip);
 	}
 
+
+
+
 	/*
 		*   @Description:  根据id获取VIP信息
 		*   @Author: 何袁辉
@@ -35,8 +38,8 @@ public class VipServiceImpl  implements VipService{
 		*   @Return:   ？？？？
 		*
 		* */
-	public List<Vip> getVipById(String num) {
-		return vipMapper.getVipById(num);
+	public Vip getVipByNum(String num) {
+		return vipMapper.getVipByNum(num);
 	}
 
 	/*

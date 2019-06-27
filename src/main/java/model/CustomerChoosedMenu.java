@@ -15,7 +15,14 @@ public class CustomerChoosedMenu {
     private int goodsId;   // 商品id
     private int num;   //商品数量
 
-    public int getCcmId() {
+
+	public CustomerChoosedMenu(int waterNumId, int goodsId, int num) {
+		this.waterNumId = waterNumId;
+		this.goodsId = goodsId;
+		this.num = num;
+	}
+
+	public int getCcmId() {
         return ccmId;
     }
 

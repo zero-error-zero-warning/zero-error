@@ -12,80 +12,89 @@ package model;
 public class SalesOrder {
     private int salesOrderId;  //销售单id
     private int employeeId;   //收营员
-    private int vipId; //会员号
+    private int  vipId; //会员号
     private int waterNumId;  //流水单号    和 CustomerChoosedMenu类的  waterNumId相对应
-    private int sumPrice;        //总价
-    private int discountSumPrice;   //折后价
+    private float sumPrice;        //总价
+    private float discountSumPrice;   //折后价
     private String time;    //销售时间
 
-    public SalesOrder(int salesOrderId, int employeeId, int vipId, int waterNumId, int sumPrice, int discountSumPrice, String time) {
-        this.salesOrderId = salesOrderId;
-        this.employeeId = employeeId;
-        this.vipId = vipId;
-        this.waterNumId = waterNumId;
-        this.sumPrice = sumPrice;
-        this.discountSumPrice = discountSumPrice;
-        this.time = time;
-    }
 
-    public SalesOrder() {
-        super();
-    }
+	public SalesOrder(){}
 
 
-    public int getSalesOrderId() {
-        return salesOrderId;
-    }
+	public SalesOrder(int salesOrderId, int employeeId, int vipId, int waterNumId, float sumPrice, float discountSumPrice, String time) {
+		this.salesOrderId = salesOrderId;
+		this.employeeId = employeeId;
+		this.vipId = vipId;
+		this.waterNumId = waterNumId;
+		this.sumPrice = sumPrice;
+		this.discountSumPrice = discountSumPrice;
+		this.time = time;
+	}
 
-    public void setSalesOrderId(int salesOrderId) {
-        this.salesOrderId = salesOrderId;
-    }
+	public SalesOrder(int employeeId, int vipId, int waterNumId, float sumPrice, float discountSumPrice, String time) {
+		this.employeeId = employeeId;
+		this.vipId = vipId;
+		this.waterNumId = waterNumId;
+		this.sumPrice = sumPrice;
+		this.discountSumPrice = discountSumPrice;
+		this.time = time;
+	}
 
-    public int getEmployeeId() {
-        return employeeId;
-    }
 
-    public void setEmployeeId(int employeeId) {
-        this.employeeId = employeeId;
-    }
+	public int getSalesOrderId() {
+		return salesOrderId;
+	}
 
-    public int getVipId() {
-        return vipId;
-    }
+	public void setSalesOrderId(int salesOrderId) {
+		this.salesOrderId = salesOrderId;
+	}
 
-    public void setVipId(int vipId) {
-        this.vipId = vipId;
-    }
+	public int getEmployeeId() {
+		return employeeId;
+	}
 
-    public int getWaterNumId() {
-        return waterNumId;
-    }
+	public void setEmployeeId(int employeeId) {
+		this.employeeId = employeeId;
+	}
 
-    public void setWaterNumId(int waterNumId) {
-        this.waterNumId = waterNumId;
-    }
+	public int getVipId() {
+		return vipId;
+	}
 
-    public int getSumPrice() {
-        return sumPrice;
-    }
+	public void setVipId(int vipId) {
+		this.vipId = vipId;
+	}
 
-    public void setSumPrice(int sumPrice) {
-        this.sumPrice = sumPrice;
-    }
+	public int getWaterNumId() {
+		return waterNumId;
+	}
 
-    public int getDiscountSumPrice() {
-        return discountSumPrice;
-    }
+	public void setWaterNumId(int waterNumId) {
+		this.waterNumId = waterNumId;
+	}
 
-    public void setDiscountSumPrice(int discountSumPrice) {
-        this.discountSumPrice = discountSumPrice;
-    }
+	public float getSumPrice() {
+		return sumPrice;
+	}
 
-    public String getTime() {
-        return time;
-    }
+	public void setSumPrice(float sumPrice) {
+		this.sumPrice = sumPrice;
+	}
 
-    public void setTime(String time) {
-        this.time = time;
-    }
+	public float getDiscountSumPrice() {
+		return discountSumPrice;
+	}
+
+	public void setDiscountSumPrice(float discountSumPrice) {
+		this.discountSumPrice = discountSumPrice;
+	}
+
+	public String getTime() {
+		return time;
+	}
+
+	public void setTime(String time) {
+		this.time = time;
+	}
 }

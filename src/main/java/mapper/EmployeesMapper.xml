@@ -24,7 +24,7 @@
         SELECT employeeId,name,phoneNum,password,text FROM employees WHERE employeeId = #{id}
     </select>
 
-    <!--<select id="getEmployeesByTime"></select>-->
+
 
     <update id="resetEmployeePwdById" parameterType="String">
         update employees set password = 'aa123456' where employeeId=#{id}

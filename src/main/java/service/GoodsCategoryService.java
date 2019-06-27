@@ -39,5 +39,5 @@ public interface GoodsCategoryService {
 	 * @Author: 何袁辉
 	 * @Date: 2019/6/22
 	 */
-	public int getGoodsCategoryById(GoodsCategory gc);
+	public GoodsCategory getGoodsCategoryById(String id);
 }

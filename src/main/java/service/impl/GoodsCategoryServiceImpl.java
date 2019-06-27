@@ -61,7 +61,7 @@ public class GoodsCategoryServiceImpl  implements GoodsCategoryService{
 		*   @Return:
 		*
 		* */
-	public int getGoodsCategoryById(GoodsCategory gc) {
-		return goodsCategoryMapper.getGoodsCategoryById(gc);
+	public GoodsCategory getGoodsCategoryById(String id) {
+		return goodsCategoryMapper.getGoodsCategoryById(id);
 	}
 }

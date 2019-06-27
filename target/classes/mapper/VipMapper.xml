@@ -3,7 +3,13 @@
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="mapper.VipMapper">
-    <insert id="addVip"></insert>
-    <select id="getVipById"></select>
-    <select id="getVipByDefault"></select>
+    <insert id="addVip" parameterType="Vip" useGeneratedKeys="true" keyProperty="vipId">
+          insert into vip (name,phoneNum,gender) value (#{name},#{phoneNum},#{gender})
+    </insert>
+    <select id="getVipByNum" resultType="Vip" parameterType="String">
+          select vipId,name,phoneNum,gender from vip where phoneNum=#{num}
+    </select>
+    <select id="getVipByDefault" resultType="Vip">
+        select vipId,name,phoneNum,gender from vip
+    </select>
 </mapper>

@@ -14,7 +14,14 @@ public class Vip {
     private String phoneNum;   //会员手机号码
     private String gender;   //会员性别
 
-    public String getGender() {
+
+	public Vip(String name, String phoneNum, String gender) {
+		this.name = name;
+		this.phoneNum = phoneNum;
+		this.gender = gender;
+	}
+
+	public String getGender() {
         return gender;
     }
 

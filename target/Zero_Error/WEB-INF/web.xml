@@ -24,7 +24,6 @@
 
 
 
-
   <!--log4j   监听器-->
   <listener>
     <listener-class>org.springframework.web.util.Log4jConfigListener</listener-class>
@@ -34,7 +33,6 @@
   <listener>
     <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
   </listener>
-
 
 
 
@@ -65,9 +63,13 @@
     <url-pattern>/</url-pattern>    <!--拦截一切-->
   </servlet-mapping>
 
-  
 
 
+
+    <servlet-mapping>
+        <servlet-name>default</servlet-name>
+        <url-pattern>*.jpg</url-pattern>
+    </servlet-mapping>
 
 
 
