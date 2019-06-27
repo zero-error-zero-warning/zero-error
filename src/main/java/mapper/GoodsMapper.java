@@ -22,7 +22,7 @@ public interface GoodsMapper {
     * @Author: 陈泯全
     * @Date: 2019/6/22
     */
-    public int deleteGoodsByDefault(String id);
+    public int deleteGoodsById(String id);
 
     /**
     * @Description: 根据类别删除商品
@@ -31,7 +31,7 @@ public interface GoodsMapper {
     * @Author: 陈泯全
     * @Date: 2019/6/22
     */
-    public int deleteGoodsByCategory(String id);
+    public int deleteGoodsByCategoryId(String id);
 
     /**
     * @Description: 查询所有的商品

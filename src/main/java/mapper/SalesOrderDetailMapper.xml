@@ -3,7 +3,18 @@
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="mapper.SalesOrderDetailMapper">
-    <select id="getSalesOrderDetailByDefault"></select>
-    <select id="getSalesOrderDetailByParams"></select>
+    <select id="getSalesOrderDetailByDefault" resultType="SalesOrderDetail">
+        select salesOrderId,employeeId,vipId,waterNumId,sumPrice,discountSumPrice,time,ccmId,goodsId,num,num,name,price,goodsCategoryId,category
+        from salesorderdetal
+    </select>
+    <select id="getSalesOrderDetailByWaterNumId" resultType="SalesOrderDetail">
+         select salesOrderId,employeeId,vipId,waterNumId,sumPrice,discountSumPrice,time,ccmId,goodsId,num,num,name,price,goodsCategoryId,category
+        from salesorderdetal where waterNumId=#{id}
+    </select>
+    
+    <select id="getSalesOrderDetailByParams" parameterType="hashmap" resultType="SalesOrderDetail">
+        select salesOrderId,employeeId,vipId,waterNumId,sumPrice,discountSumPrice,time,ccmId,goodsId,num,num,name,price,goodsCategoryId,category
+        from salesorderdetal where goodsCategoryId=#{category} and time between  #{startTime} and #{endTime}
+    </select>
 
 </mapper>

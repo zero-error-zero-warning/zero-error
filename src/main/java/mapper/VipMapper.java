@@ -16,13 +16,13 @@ public interface VipMapper {
     public int addVip(Vip vip);
 
     /**
-    * @Description: 根据会员点哈号码查询
+    * @Description: 根据会员点话号码查询
     * @Param:  电话号码
     * @return:  vip实体
     * @Author: 陈泯全
     * @Date: 2019/6/22
     */
-    public List<Vip> getVipById(String num);
+    public Vip getVipByNum(String num);
 
 
     /**
