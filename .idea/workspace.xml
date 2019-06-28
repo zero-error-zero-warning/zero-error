@@ -10,143 +10,67 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="863fe121-9f9e-4bc0-8806-185dc2fecb25" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/img/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/img/蓝莓冰沙.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/controller/CustomerChoosedMenuController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/controller/CustomerController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/controller/EmployeeController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/controller/GoodsCategoryController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/controller/GoodsController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/controller/RestaurantTablesController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/controller/VipController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/test/mapperTest/MapperTest.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/test/mapper/AdminMapperTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Zero_Error/WEB-INF/classes/controller/Employees.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Zero_Error/WEB-INF/classes/service/ICustomerService.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Zero_Error/WEB-INF/classes/mapper/AdminMapper.class" afterPath="$PROJECT_DIR$/target/Zero_Error/WEB-INF/classes/mapper/AdminMapper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Zero_Error/WEB-INF/classes/mapper/CustomerChoosedMenuMapper.class" afterPath="$PROJECT_DIR$/target/Zero_Error/WEB-INF/classes/mapper/CustomerChoosedMenuMapper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Zero_Error/WEB-INF/classes/mapper/DiscountMapper.class" afterPath="$PROJECT_DIR$/target/Zero_Error/WEB-INF/classes/mapper/DiscountMapper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Zero_Error/WEB-INF/classes/mapper/EmployeesMapper.class" afterPath="$PROJECT_DIR$/target/Zero_Error/WEB-INF/classes/mapper/EmployeesMapper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Zero_Error/WEB-INF/classes/mapper/GoodsCategoryMapper.class" afterPath="$PROJECT_DIR$/target/Zero_Error/WEB-INF/classes/mapper/GoodsCategoryMapper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Zero_Error/WEB-INF/classes/mapper/GoodsMapper.class" afterPath="$PROJECT_DIR$/target/Zero_Error/WEB-INF/classes/mapper/GoodsMapper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Zero_Error/WEB-INF/classes/mapper/RestaurantTablesMapper.class" afterPath="$PROJECT_DIR$/target/Zero_Error/WEB-INF/classes/mapper/RestaurantTablesMapper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Zero_Error/WEB-INF/classes/mapper/SalesOrderMapper.class" afterPath="$PROJECT_DIR$/target/Zero_Error/WEB-INF/classes/mapper/SalesOrderMapper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Zero_Error/WEB-INF/classes/mapper/VipMapper.class" afterPath="$PROJECT_DIR$/target/Zero_Error/WEB-INF/classes/mapper/VipMapper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Zero_Error/WEB-INF/classes/mapper/WorkAttendanceMapper.class" afterPath="$PROJECT_DIR$/target/Zero_Error/WEB-INF/classes/mapper/WorkAttendanceMapper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Zero_Error/WEB-INF/classes/model/CustomerChoosedMenu.class" afterPath="$PROJECT_DIR$/target/Zero_Error/WEB-INF/classes/model/CustomerChoosedMenu.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Zero_Error/WEB-INF/classes/model/Employees.class" afterPath="$PROJECT_DIR$/target/Zero_Error/WEB-INF/classes/model/Employees.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Zero_Error/WEB-INF/classes/model/Goods.class" afterPath="$PROJECT_DIR$/target/Zero_Error/WEB-INF/classes/model/Goods.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Zero_Error/WEB-INF/classes/model/SalesOrder.class" afterPath="$PROJECT_DIR$/target/Zero_Error/WEB-INF/classes/model/SalesOrder.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Zero_Error/WEB-INF/classes/model/Vip.class" afterPath="$PROJECT_DIR$/target/Zero_Error/WEB-INF/classes/model/Vip.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Zero_Error/WEB-INF/classes/service/AdminService.class" afterPath="$PROJECT_DIR$/target/Zero_Error/WEB-INF/classes/service/AdminService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Zero_Error/WEB-INF/classes/service/CustomerChoosedMenuService.class" afterPath="$PROJECT_DIR$/target/Zero_Error/WEB-INF/classes/service/CustomerChoosedMenuService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Zero_Error/WEB-INF/classes/service/DiscountService.class" afterPath="$PROJECT_DIR$/target/Zero_Error/WEB-INF/classes/service/DiscountService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Zero_Error/WEB-INF/classes/service/EmployeesService.class" afterPath="$PROJECT_DIR$/target/Zero_Error/WEB-INF/classes/service/EmployeesService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Zero_Error/WEB-INF/classes/service/GoodsCategoryService.class" afterPath="$PROJECT_DIR$/target/Zero_Error/WEB-INF/classes/service/GoodsCategoryService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Zero_Error/WEB-INF/classes/service/GoodsService.class" afterPath="$PROJECT_DIR$/target/Zero_Error/WEB-INF/classes/service/GoodsService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Zero_Error/WEB-INF/classes/service/RestaurantTablesService.class" afterPath="$PROJECT_DIR$/target/Zero_Error/WEB-INF/classes/service/RestaurantTablesService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Zero_Error/WEB-INF/classes/service/SalesOrderService.class" afterPath="$PROJECT_DIR$/target/Zero_Error/WEB-INF/classes/service/SalesOrderService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Zero_Error/WEB-INF/classes/service/VipService.class" afterPath="$PROJECT_DIR$/target/Zero_Error/WEB-INF/classes/service/VipService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Zero_Error/WEB-INF/classes/service/WorkAttendanceService.class" afterPath="$PROJECT_DIR$/target/Zero_Error/WEB-INF/classes/service/WorkAttendanceService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Zero_Error/WEB-INF/classes/service/impl/AdminServiceImpl.class" afterPath="$PROJECT_DIR$/target/Zero_Error/WEB-INF/classes/service/impl/AdminServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Zero_Error/WEB-INF/classes/service/impl/CustomerChoosedMenuServiceImpl.class" afterPath="$PROJECT_DIR$/target/Zero_Error/WEB-INF/classes/service/impl/CustomerChoosedMenuServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Zero_Error/WEB-INF/classes/service/impl/DiscountServiceImpl.class" afterPath="$PROJECT_DIR$/target/Zero_Error/WEB-INF/classes/service/impl/DiscountServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Zero_Error/WEB-INF/classes/service/impl/EmployeesServiceImpl.class" afterPath="$PROJECT_DIR$/target/Zero_Error/WEB-INF/classes/service/impl/EmployeesServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Zero_Error/WEB-INF/classes/service/impl/GoodsCategoryServiceImpl.class" afterPath="$PROJECT_DIR$/target/Zero_Error/WEB-INF/classes/service/impl/GoodsCategoryServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Zero_Error/WEB-INF/classes/service/impl/GoodsServiceImpl.class" afterPath="$PROJECT_DIR$/target/Zero_Error/WEB-INF/classes/service/impl/GoodsServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Zero_Error/WEB-INF/classes/service/impl/RestaurantTablesServiceImpl.class" afterPath="$PROJECT_DIR$/target/Zero_Error/WEB-INF/classes/service/impl/RestaurantTablesServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Zero_Error/WEB-INF/classes/service/impl/SalesOrderServiceImpl.class" afterPath="$PROJECT_DIR$/target/Zero_Error/WEB-INF/classes/service/impl/SalesOrderServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Zero_Error/WEB-INF/classes/service/impl/VipServiceImpl.class" afterPath="$PROJECT_DIR$/target/Zero_Error/WEB-INF/classes/service/impl/VipServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Zero_Error/WEB-INF/classes/service/impl/WorkAttendanceServiceImpl.class" afterPath="$PROJECT_DIR$/target/Zero_Error/WEB-INF/classes/service/impl/WorkAttendanceServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/mapper/CustomerChoosedMenuMapper.class" afterPath="$PROJECT_DIR$/target/classes/mapper/CustomerChoosedMenuMapper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/mapper/EmployeesMapper.class" afterPath="$PROJECT_DIR$/target/classes/mapper/EmployeesMapper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/mapper/GoodsCategoryMapper.class" afterPath="$PROJECT_DIR$/target/classes/mapper/GoodsCategoryMapper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/mapper/GoodsMapper.class" afterPath="$PROJECT_DIR$/target/classes/mapper/GoodsMapper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/mapper/SalesOrderDetailMapper.class" afterPath="$PROJECT_DIR$/target/classes/mapper/SalesOrderDetailMapper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/mapper/VipMapper.class" afterPath="$PROJECT_DIR$/target/classes/mapper/VipMapper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/mapper/WorkAttendanceMapper.class" afterPath="$PROJECT_DIR$/target/classes/mapper/WorkAttendanceMapper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/model/CustomerChoosedMenu.class" afterPath="$PROJECT_DIR$/target/classes/model/CustomerChoosedMenu.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/model/Employees.class" afterPath="$PROJECT_DIR$/target/classes/model/Employees.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/model/Goods.class" afterPath="$PROJECT_DIR$/target/classes/model/Goods.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/model/SalesOrder.class" afterPath="$PROJECT_DIR$/target/classes/model/SalesOrder.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/model/SalesOrderDetail.class" afterPath="$PROJECT_DIR$/target/classes/model/SalesOrderDetail.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/model/Vip.class" afterPath="$PROJECT_DIR$/target/classes/model/Vip.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/service/CustomerChoosedMenuService.class" afterPath="$PROJECT_DIR$/target/classes/service/CustomerChoosedMenuService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/service/GoodsCategoryService.class" afterPath="$PROJECT_DIR$/target/classes/service/GoodsCategoryService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/service/GoodsService.class" afterPath="$PROJECT_DIR$/target/classes/service/GoodsService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/service/VipService.class" afterPath="$PROJECT_DIR$/target/classes/service/VipService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/service/WorkAttendanceService.class" afterPath="$PROJECT_DIR$/target/classes/service/WorkAttendanceService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/service/impl/CustomerChoosedMenuServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/service/impl/CustomerChoosedMenuServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/service/impl/EmployeesServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/service/impl/EmployeesServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/service/impl/GoodsCategoryServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/service/impl/GoodsCategoryServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/service/impl/GoodsServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/service/impl/GoodsServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/service/impl/VipServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/service/impl/VipServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/service/impl/WorkAttendanceServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/service/impl/WorkAttendanceServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/Zero_Error_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/Zero_Error_war_exploded.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/fonts/element-icons.535877f.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/fonts/element-icons.732389d.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/index1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/css/app.d5e3c4d4fa4a397dc6cd769221c76696.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/css/app.d5e3c4d4fa4a397dc6cd769221c76696.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/0.533ee00c12b2d0b0ccd8.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/0.533ee00c12b2d0b0ccd8.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/1.0ba109126c5ee4d722dd.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/1.0ba109126c5ee4d722dd.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/10.75685344a4506b8c5863.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/10.75685344a4506b8c5863.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/11.7bb7d3256244a7ce8d4e.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/11.7bb7d3256244a7ce8d4e.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/12.121e690cf42f81c4f756.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/12.121e690cf42f81c4f756.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/13.188d9e50e7c65251d387.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/13.188d9e50e7c65251d387.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/14.68f544a393de02c895d4.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/14.68f544a393de02c895d4.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/15.6e520a446e387611d5b5.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/15.6e520a446e387611d5b5.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/18.683496f8ae267a63c931.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/18.683496f8ae267a63c931.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/19.b55a0e560c61984dc209.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/19.b55a0e560c61984dc209.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/2.e4f0ce14828c99eb0fb7.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/2.e4f0ce14828c99eb0fb7.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/3.57d146d4b7fd3f759a9a.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/3.57d146d4b7fd3f759a9a.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/4.934980ed3681986b9a6d.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/4.934980ed3681986b9a6d.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/5.33b31567fe6a088c2cb6.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/5.33b31567fe6a088c2cb6.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/6.09c8d23286b1b682814d.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/6.09c8d23286b1b682814d.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/7.cd208b63cfd5dad5ba82.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/7.cd208b63cfd5dad5ba82.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/8.56036275663595a814dc.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/8.56036275663595a814dc.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/9.21db7d0f82fb49e314f4.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/9.21db7d0f82fb49e314f4.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/app.cb85fb6e84327298989a.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/app.cb85fb6e84327298989a.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/manifest.5aa09fee114b6815892f.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/manifest.5aa09fee114b6815892f.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/vendor.720fa82908ec7f2fcac1.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/vendor.720fa82908ec7f2fcac1.js.map" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Zero_Error/index.jsp" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Zero_Error/WEB-INF/classes/controller/CustomerController.class" afterPath="$PROJECT_DIR$/target/Zero_Error/WEB-INF/classes/controller/CustomerController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/controller/CustomerController.class" afterPath="$PROJECT_DIR$/target/classes/controller/CustomerController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Zero_Error.iml" afterPath="$PROJECT_DIR$/Zero_Error.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/mapper/AdminMapper.java" afterPath="$PROJECT_DIR$/src/main/java/mapper/AdminMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/mapper/AdminMapper.xml" afterPath="$PROJECT_DIR$/src/main/java/mapper/AdminMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/mapper/CustomerChoosedMenuMapper.java" afterPath="$PROJECT_DIR$/src/main/java/mapper/CustomerChoosedMenuMapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/controller/CustomerController.java" afterPath="$PROJECT_DIR$/src/main/java/controller/CustomerController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/mapper/CustomerChoosedMenuMapper.xml" afterPath="$PROJECT_DIR$/src/main/java/mapper/CustomerChoosedMenuMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/mapper/DiscountMapper.xml" afterPath="$PROJECT_DIR$/src/main/java/mapper/DiscountMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/mapper/EmployeesMapper.java" afterPath="$PROJECT_DIR$/src/main/java/mapper/EmployeesMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/mapper/EmployeesMapper.xml" afterPath="$PROJECT_DIR$/src/main/java/mapper/EmployeesMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/mapper/GoodsCategoryMapper.java" afterPath="$PROJECT_DIR$/src/main/java/mapper/GoodsCategoryMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/mapper/GoodsCategoryMapper.xml" afterPath="$PROJECT_DIR$/src/main/java/mapper/GoodsCategoryMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/mapper/GoodsMapper.java" afterPath="$PROJECT_DIR$/src/main/java/mapper/GoodsMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/mapper/GoodsMapper.xml" afterPath="$PROJECT_DIR$/src/main/java/mapper/GoodsMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/mapper/RestaurantTablesMapper.xml" afterPath="$PROJECT_DIR$/src/main/java/mapper/RestaurantTablesMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/mapper/SalesOrderDetailMapper.java" afterPath="$PROJECT_DIR$/src/main/java/mapper/SalesOrderDetailMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/mapper/SalesOrderDetailMapper.xml" afterPath="$PROJECT_DIR$/src/main/java/mapper/SalesOrderDetailMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/mapper/SalesOrderMapper.xml" afterPath="$PROJECT_DIR$/src/main/java/mapper/SalesOrderMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/mapper/VipMapper.java" afterPath="$PROJECT_DIR$/src/main/java/mapper/VipMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/mapper/VipMapper.xml" afterPath="$PROJECT_DIR$/src/main/java/mapper/VipMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/mapper/WorkAttendanceMapper.java" afterPath="$PROJECT_DIR$/src/main/java/mapper/WorkAttendanceMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/mapper/WorkAttendanceMapper.xml" afterPath="$PROJECT_DIR$/src/main/java/mapper/WorkAttendanceMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/model/CustomerChoosedMenu.java" afterPath="$PROJECT_DIR$/src/main/java/model/CustomerChoosedMenu.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/model/Employees.java" afterPath="$PROJECT_DIR$/src/main/java/model/Employees.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/model/Goods.java" afterPath="$PROJECT_DIR$/src/main/java/model/Goods.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/model/SalesOrder.java" afterPath="$PROJECT_DIR$/src/main/java/model/SalesOrder.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/model/SalesOrderDetail.java" afterPath="$PROJECT_DIR$/src/main/java/model/SalesOrderDetail.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/model/Vip.java" afterPath="$PROJECT_DIR$/src/main/java/model/Vip.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/service/CustomerChoosedMenuService.java" afterPath="$PROJECT_DIR$/src/main/java/service/CustomerChoosedMenuService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/service/GoodsCategoryService.java" afterPath="$PROJECT_DIR$/src/main/java/service/GoodsCategoryService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/service/GoodsService.java" afterPath="$PROJECT_DIR$/src/main/java/service/GoodsService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/service/VipService.java" afterPath="$PROJECT_DIR$/src/main/java/service/VipService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/service/WorkAttendanceService.java" afterPath="$PROJECT_DIR$/src/main/java/service/WorkAttendanceService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/service/impl/CustomerChoosedMenuServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/service/impl/CustomerChoosedMenuServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/service/impl/EmployeesServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/service/impl/EmployeesServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/service/impl/GoodsCategoryServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/service/impl/GoodsCategoryServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/service/impl/GoodsServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/service/impl/GoodsServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/service/impl/VipServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/service/impl/VipServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/service/impl/WorkAttendanceServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/service/impl/WorkAttendanceServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/spring/applicationContext-controller.xml" afterPath="$PROJECT_DIR$/src/main/resources/spring/applicationContext-controller.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Zero_Error/WEB-INF/classes/mapper/AdminMapper.xml" afterPath="$PROJECT_DIR$/target/Zero_Error/WEB-INF/classes/mapper/AdminMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/spring/applicationContext-Dao.xml" afterPath="$PROJECT_DIR$/src/main/resources/spring/applicationContext-Dao.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Zero_Error/WEB-INF/classes/mapper/CustomerChoosedMenuMapper.xml" afterPath="$PROJECT_DIR$/target/Zero_Error/WEB-INF/classes/mapper/CustomerChoosedMenuMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Zero_Error/WEB-INF/classes/mapper/DiscountMapper.xml" afterPath="$PROJECT_DIR$/target/Zero_Error/WEB-INF/classes/mapper/DiscountMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Zero_Error/WEB-INF/classes/mapper/EmployeesMapper.xml" afterPath="$PROJECT_DIR$/target/Zero_Error/WEB-INF/classes/mapper/EmployeesMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Zero_Error/WEB-INF/classes/mapper/GoodsCategoryMapper.xml" afterPath="$PROJECT_DIR$/target/Zero_Error/WEB-INF/classes/mapper/GoodsCategoryMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Zero_Error/WEB-INF/classes/mapper/GoodsMapper.xml" afterPath="$PROJECT_DIR$/target/Zero_Error/WEB-INF/classes/mapper/GoodsMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Zero_Error/WEB-INF/classes/mapper/SalesOrderMapper.xml" afterPath="$PROJECT_DIR$/target/Zero_Error/WEB-INF/classes/mapper/SalesOrderMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Zero_Error/WEB-INF/classes/mapper/VipMapper.xml" afterPath="$PROJECT_DIR$/target/Zero_Error/WEB-INF/classes/mapper/VipMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Zero_Error/WEB-INF/classes/mapper/WorkAttendanceMapper.xml" afterPath="$PROJECT_DIR$/target/Zero_Error/WEB-INF/classes/mapper/WorkAttendanceMapper.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Zero_Error/WEB-INF/classes/spring/applicationContext-Dao.xml" afterPath="$PROJECT_DIR$/target/Zero_Error/WEB-INF/classes/spring/applicationContext-Dao.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Zero_Error/WEB-INF/classes/spring/applicationContext-controller.xml" afterPath="$PROJECT_DIR$/target/Zero_Error/WEB-INF/classes/spring/applicationContext-controller.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Zero_Error/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/target/Zero_Error/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/mapper/AdminMapper.xml" afterPath="$PROJECT_DIR$/target/classes/mapper/AdminMapper.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/mapper/CustomerChoosedMenuMapper.xml" afterPath="$PROJECT_DIR$/target/classes/mapper/CustomerChoosedMenuMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/mapper/DiscountMapper.xml" afterPath="$PROJECT_DIR$/target/classes/mapper/DiscountMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/mapper/EmployeesMapper.xml" afterPath="$PROJECT_DIR$/target/classes/mapper/EmployeesMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/mapper/GoodsCategoryMapper.xml" afterPath="$PROJECT_DIR$/target/classes/mapper/GoodsCategoryMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/mapper/GoodsMapper.xml" afterPath="$PROJECT_DIR$/target/classes/mapper/GoodsMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/mapper/RestaurantTablesMapper.xml" afterPath="$PROJECT_DIR$/target/classes/mapper/RestaurantTablesMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/mapper/SalesOrderDetailMapper.xml" afterPath="$PROJECT_DIR$/target/classes/mapper/SalesOrderDetailMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/mapper/SalesOrderMapper.xml" afterPath="$PROJECT_DIR$/target/classes/mapper/SalesOrderMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/mapper/VipMapper.xml" afterPath="$PROJECT_DIR$/target/classes/mapper/VipMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/mapper/WorkAttendanceMapper.xml" afterPath="$PROJECT_DIR$/target/classes/mapper/WorkAttendanceMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/spring/applicationContext-Dao.xml" afterPath="$PROJECT_DIR$/target/classes/spring/applicationContext-Dao.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/spring/applicationContext-controller.xml" afterPath="$PROJECT_DIR$/target/classes/spring/applicationContext-controller.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -157,70 +81,29 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand />
+    <select />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="CustomerController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/controller/CustomerController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-507">
-              <caret line="17" column="21" lean-forward="true" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CustomerChoosedMenuMapper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/mapper/CustomerChoosedMenuMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="65">
-              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="CustomerChoosedMenuMapper.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/mapper/CustomerChoosedMenuMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="47">
-              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
               <folding>
-                <marker date="1561351258628" expanded="true" signature="693:753" ph="select ccmId... CustomerChoosedMenu" />
-                <marker date="1561351258628" expanded="true" signature="882:965" ph="select ccmId... CustomerChoosedMenu" />
-                <marker date="1561351258628" expanded="true" signature="1042:1112" ph="select IFNUL... customerChoosedMenu" />
+                <marker date="1561689198966" expanded="true" signature="693:753" ph="select ccmId... CustomerChoosedMenu" />
+                <marker date="1561689198966" expanded="true" signature="882:965" ph="select ccmId... CustomerChoosedMenu" />
+                <marker date="1561689198966" expanded="true" signature="1042:1112" ph="select IFNUL... customerChoosedMenu" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AdminController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/controller/AdminController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-130">
-              <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RestaurantTablesController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/controller/RestaurantTablesController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
-              <caret line="77" column="39" lean-forward="true" selection-start-line="77" selection-start-column="39" selection-end-line="77" selection-end-column="39" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GoodsCategoryController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/controller/GoodsCategoryController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1287">
-              <caret line="99" column="17" lean-forward="true" selection-start-line="99" selection-start-column="17" selection-end-line="99" selection-end-column="17" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -228,37 +111,92 @@
       <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2808">
-              <caret line="72" column="0" lean-forward="true" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+            <state relative-caret-position="2613">
+              <caret line="67" column="0" lean-forward="false" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GoodsController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/controller/GoodsController.java">
+      <file leaf-file-name="index1.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/index1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="83" column="0" lean-forward="false" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
+            <state relative-caret-position="273">
+              <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="applicationContext-Dao.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/spring/applicationContext-Dao.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state relative-caret-position="1017">
+              <caret line="57" column="0" lean-forward="true" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="1.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/img/1.jpg">
-          <provider selected="true" editor-type-id="images">
-            <state />
+      <file leaf-file-name="applicationContext-controller.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/spring/applicationContext-controller.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="78">
+              <caret line="2" column="11" lean-forward="true" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CustomerChoosedMenuMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/mapper/CustomerChoosedMenuMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="624">
+              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DiscountServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/service/impl/DiscountServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="429">
+              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AdminMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/mapper/AdminMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="468">
+              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AdminMapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/mapper/AdminMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="6" column="33" lean-forward="false" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="33" />
+              <folding>
+                <marker date="1561351258515" expanded="true" signature="298:400" ph="select admin... admin" />
+              </folding>
+            </state>
           </provider>
         </entry>
       </file>
@@ -270,6 +208,8 @@
         <option value="Interface" />
         <option value="JUnit4 Test Class" />
         <option value="Class" />
+        <option value="Jsp File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -284,23 +224,18 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/service/AdminService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/service/impl/DiscountServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/service/impl/RestaurantTablesServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/service/SalesOrderDetailService.java" />
         <option value="$PROJECT_DIR$/src/main/java/service/SalesOrderService.java" />
         <option value="$PROJECT_DIR$/src/main/java/service/impl/SalesOrderServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/mapper/SalesOrderDetailMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/service/impl/AdminServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/service/impl/SalesOrderDetailImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/spring/applicationContext-Dao.xml" />
         <option value="$PROJECT_DIR$/src/main/test/mapperTest/AdminTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/mapper/CustomerChoosedMenuMapper.java" />
         <option value="$PROJECT_DIR$/src/main/test/mapper/AdminMapperTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/mapper/GoodsCategoryMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/mapper/AdminMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/mapper/AdminMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/mapper/CustomerChoosedMenuMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/mapper/SalesOrderMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/mapper/EmployeesMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/service/impl/EmployeesServiceImpl.java" />
@@ -322,7 +257,6 @@
         <option value="$PROJECT_DIR$/src/main/java/controller/CustomerChoosedMenuController.java" />
         <option value="$PROJECT_DIR$/src/main/java/controller/AdminController.java" />
         <option value="$PROJECT_DIR$/src/main/java/controller/RestaurantTablesController.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/spring/applicationContext-controller.xml" />
         <option value="$PROJECT_DIR$/src/main/java/controller/GoodsCategoryController.java" />
         <option value="$PROJECT_DIR$/src/main/java/mapper/GoodsMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/model/Goods.java" />
@@ -331,10 +265,16 @@
         <option value="$PROJECT_DIR$/src/main/java/controller/CustomerContorller.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/SalesOrder.java" />
         <option value="$PROJECT_DIR$/src/main/java/controller/VipController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/controller/CustomerController.java" />
         <option value="$PROJECT_DIR$/src/main/java/mapper/EmployeesMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/java/controller/GoodsController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/CustomerController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mapper/CustomerChoosedMenuMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/static/js/1.0ba109126c5ee4d722dd.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index1.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index1.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring/applicationContext-controller.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring/applicationContext-Dao.xml" />
       </list>
     </option>
   </component>
@@ -359,10 +299,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-60" />
-    <option name="y" value="225" />
-    <option name="width" value="1945" />
-    <option name="height" value="980" />
+    <option name="x" value="-9" />
+    <option name="y" value="29" />
+    <option name="width" value="1750" />
+    <option name="height" value="995" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -451,6 +391,23 @@
               <item name="zero-error" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Zero_Error" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zero-error" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Zero_Error" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zero-error" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -459,16 +416,56 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
+              <item name="properties" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Zero_Error" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zero-error" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Zero_Error" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zero-error" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Zero_Error" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zero-error" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Zero_Error" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zero-error" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="fonts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Zero_Error" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zero-error" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -480,6 +477,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="E:/IntelliJ IDEA Project/mybatis2" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -492,6 +490,7 @@
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Lenovo\Desktop\zero-error\src\main\webapp" />
       <recent name="C:\Users\Lenovo\Desktop\zero-error\src\main\resources\img" />
     </key>
   </component>
@@ -757,7 +756,13 @@
       <workItem from="1561375973517" duration="9895000" />
       <workItem from="1561422944874" duration="24693000" />
       <workItem from="1561509528980" duration="8836000" />
-      <workItem from="1561519292647" duration="10358000" />
+      <workItem from="1561519292647" duration="11622000" />
+      <workItem from="1561645329542" duration="648000" />
+      <workItem from="1561682322841" duration="1343000" />
+      <workItem from="1561684950129" duration="20000" />
+      <workItem from="1561685198596" duration="2050000" />
+      <workItem from="1561689146277" duration="674000" />
+      <workItem from="1561690079742" duration="1333000" />
     </task>
     <servers />
   </component>
@@ -767,7 +772,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="101402000" />
+    <option name="totallyTimeSpent" value="108734000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1060" extended-state="7" />
@@ -781,7 +786,7 @@
       <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -792,11 +797,11 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5684455" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.012761021" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32939914" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26233906" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -820,281 +825,93 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/mapper/SalesOrderMapper.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/mapper/WorkAttendanceMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mapper/WorkAttendanceMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="507">
+          <caret line="15" column="2" lean-forward="true" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/test/mapperTest/MapperTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1443">
+          <caret line="54" column="14" lean-forward="true" selection-start-line="54" selection-start-column="14" selection-end-line="54" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mapper/DiscountMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mapper/EmployeesMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="7" column="32" lean-forward="false" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/SalesOrderDetail.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/img/1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/GoodsCategory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-501">
-          <caret line="21" column="30" lean-forward="true" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
-          <folding />
+        <state relative-caret-position="-393">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/model/RestaurantTables.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
+        <state relative-caret-position="-492">
           <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/service/impl/DiscountServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1092">
-          <caret line="34" column="9" lean-forward="false" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/Discount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="5" column="2" lean-forward="false" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mapper/RestaurantTablesMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/Vip.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="20" column="26" lean-forward="false" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mapper/DiscountMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="858">
-          <caret line="22" column="42" lean-forward="false" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/service/RestaurantTablesService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="41" column="7" lean-forward="true" selection-start-line="41" selection-start-column="7" selection-end-line="41" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/service/impl/CustomerChoosedMenuServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="749">
-          <caret line="55" column="0" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mapper/VipMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="23" column="6" lean-forward="true" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/service/impl/VipServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="42" column="5" lean-forward="true" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/img/蓝莓冰沙.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/service/SalesOrderDetailService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-343">
-          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/service/impl/GoodsServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="26" column="31" lean-forward="true" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mapper/GoodsMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="15" column="18" lean-forward="true" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/GoodsCategory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="12" column="31" lean-forward="false" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mapper/GoodsMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="6" column="55" lean-forward="false" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="55" />
-          <folding>
-            <marker date="1561449331013" expanded="true" signature="309:424" ph="insert into goods... " />
-            <marker date="1561449331013" expanded="true" signature="506:545" ph="delete from " />
-            <marker date="1561449331013" expanded="true" signature="635:682" ph="delete from " />
-            <marker date="1561449331013" expanded="true" signature="762:825" ph="select goods... goods" />
-            <marker date="1561449331013" expanded="true" signature="929:1021" ph="select goods... goods" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/Goods.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding>
-            <element signature="e#1417#1418#0" expanded="false" />
-            <element signature="e#1446#1447#0" expanded="false" />
-            <element signature="e#1502#1503#0" expanded="false" />
-            <element signature="e#1547#1548#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mapper/GoodsCategoryMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding>
-            <marker date="1561351258660" expanded="true" signature="340:396" ph="insert into goodsCategory... " />
-            <marker date="1561351258660" expanded="true" signature="480:533" ph="delete from " />
-            <marker date="1561351258660" expanded="true" signature="627:677" ph="select goods... goodsCategory" />
-            <marker date="1561351258660" expanded="true" signature="789:867" ph="select goods... goodsCategory" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mapper/SalesOrderDetailMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-559">
-          <caret line="15" column="17" lean-forward="false" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mapper/SalesOrderDetailMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="515">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding>
-            <marker date="1561347918520" expanded="true" signature="300:465" ph="select sales... " />
-            <marker date="1561347918520" expanded="true" signature="569:757" ph="select sales... " />
-            <marker date="1561347918520" expanded="true" signature="885:1130" ph="select sales... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/CustomerChoosedMenuController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1326">
-          <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1267#1288#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mapper/SalesOrderMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding>
-            <marker date="1561351258467" expanded="true" signature="326:502" ph="insert into salesOrder... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/service/impl/SalesOrderDetailImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/service/impl/RestaurantTablesServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/service/impl/SalesOrderServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="9" column="34" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/model/SalesOrder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1287">
+        <state relative-caret-position="-978">
           <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding>
-            <element signature="e#1084#1085#0" expanded="false" />
-            <element signature="e#1110#1111#0" expanded="false" />
-            <element signature="e#1160#1161#0" expanded="false" />
-            <element signature="e#1199#1200#0" expanded="false" />
-            <element signature="e#1230#1231#0" expanded="false" />
-            <element signature="e#1254#1255#0" expanded="false" />
-            <element signature="e#1300#1301#0" expanded="false" />
-            <element signature="e#1335#1336#0" expanded="false" />
-            <element signature="e#1361#1362#0" expanded="false" />
-            <element signature="e#1380#1381#0" expanded="false" />
-            <element signature="e#1416#1417#0" expanded="false" />
-            <element signature="e#1441#1442#0" expanded="false" />
-            <element signature="e#1472#1473#0" expanded="false" />
-            <element signature="e#1496#1497#0" expanded="false" />
-            <element signature="e#1542#1543#0" expanded="false" />
-            <element signature="e#1577#1578#0" expanded="false" />
-            <element signature="e#1608#1609#0" expanded="false" />
-            <element signature="e#1630#1631#0" expanded="false" />
-            <element signature="e#1674#1675#0" expanded="false" />
-            <element signature="e#1705#1706#0" expanded="false" />
-            <element signature="e#1744#1745#0" expanded="false" />
-            <element signature="e#1774#1775#0" expanded="false" />
-            <element signature="e#1834#1835#0" expanded="false" />
-            <element signature="e#1881#1882#0" expanded="false" />
-            <element signature="e#1909#1910#0" expanded="false" />
-            <element signature="e#1927#1928#0" expanded="false" />
-            <element signature="e#1964#1965#0" expanded="false" />
-            <element signature="e#1987#1988#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/Customer.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/SalesOrderDetail.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="9" column="5" lean-forward="false" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-          <folding />
+        <state relative-caret-position="-1992">
+          <caret line="21" column="30" lean-forward="true" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/Employees.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/Vip.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="8" column="1" lean-forward="false" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-          <folding />
+        <state relative-caret-position="-492">
+          <caret line="20" column="26" lean-forward="false" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/WorkAttendance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="64" column="0" lean-forward="true" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1106,26 +923,149 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mapper/WorkAttendanceMapper.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/VipService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="156">
+          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/SalesOrderService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/SalesOrderDetailService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/RestaurantTablesService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="41" column="7" lean-forward="true" selection-start-line="41" selection-start-column="7" selection-end-line="41" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/impl/CustomerChoosedMenuServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1833">
+          <caret line="55" column="0" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/impl/EmployeesServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3279">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/impl/GoodsCategoryServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1290">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/impl/GoodsServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1251">
+          <caret line="26" column="31" lean-forward="true" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
+          <folding>
+            <element signature="e#509#510#0" expanded="true" />
+            <element signature="e#546#547#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/impl/RestaurantTablesServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1446">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/impl/SalesOrderDetailImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-822">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/impl/SalesOrderServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-63">
+          <caret line="9" column="34" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/impl/VipServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-960">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/impl/WorkAttendanceServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/properties/dbcp.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1068">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/properties/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-192">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/AdminController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="444">
+          <caret line="40" column="21" lean-forward="true" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mapper/WorkAttendanceMapper.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/CustomerChoosedMenuController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="507">
-          <caret line="15" column="2" lean-forward="true" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
-          <folding />
+        <state relative-caret-position="468">
+          <caret line="57" column="21" lean-forward="true" selection-start-line="57" selection-start-column="21" selection-end-line="57" selection-end-column="21" />
+          <folding>
+            <element signature="e#1267#1288#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/VipController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/CustomerController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-624">
-          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        <state relative-caret-position="387">
+          <caret line="45" column="29" lean-forward="true" selection-start-line="45" selection-start-column="29" selection-end-line="45" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1134,151 +1074,158 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/controller/EmployeeController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="129" column="0" lean-forward="false" selection-start-line="129" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/test/mapperTest/MapperTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1443">
-          <caret line="54" column="14" lean-forward="true" selection-start-line="54" selection-start-column="14" selection-end-line="54" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mapper/AdminMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mapper/AdminMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1561351258515" expanded="true" signature="298:400" ph="select admin... admin" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mapper/DiscountMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1561347918410" expanded="true" signature="267:320" ph="select disco... discountTable" />
-            <marker date="1561347918410" expanded="true" signature="401:466" ph="update disco... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mapper/EmployeesMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="7" column="32" lean-forward="false" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
-          <folding>
-            <marker date="1561533924209" expanded="true" signature="323:422" ph="INSERT into employees... " />
-            <marker date="1561533924209" expanded="true" signature="506:552" ph="delete from " />
-            <marker date="1561533924209" expanded="true" signature="663:780" ph="SELECT emplo... employees" />
-            <marker date="1561533924209" expanded="true" signature="867:927" ph="SELECT emplo... employees" />
-            <marker date="1561533924209" expanded="true" signature="1029:1114" ph="SELECT emplo... employees" />
-            <marker date="1561533924209" expanded="true" signature="1202:1267" ph="update emplo... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/applicationContext-controller.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="819">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2808">
-          <caret line="72" column="0" lean-forward="true" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/img/1.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/CustomerController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-507">
-          <caret line="17" column="21" lean-forward="true" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/GoodsController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="83" column="0" lean-forward="false" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mapper/CustomerChoosedMenuMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mapper/CustomerChoosedMenuMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="47">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding>
-            <marker date="1561351258628" expanded="true" signature="693:753" ph="select ccmId... CustomerChoosedMenu" />
-            <marker date="1561351258628" expanded="true" signature="882:965" ph="select ccmId... CustomerChoosedMenu" />
-            <marker date="1561351258628" expanded="true" signature="1042:1112" ph="select IFNUL... customerChoosedMenu" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/AdminController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-130">
-          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/RestaurantTablesController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="77" column="39" lean-forward="true" selection-start-line="77" selection-start-column="39" selection-end-line="77" selection-end-column="39" />
+        <state relative-caret-position="429">
+          <caret line="130" column="18" lean-forward="true" selection-start-line="130" selection-start-column="18" selection-end-line="130" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/controller/GoodsCategoryController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1287">
-          <caret line="99" column="17" lean-forward="true" selection-start-line="99" selection-start-column="17" selection-end-line="99" selection-end-column="17" />
+        <state relative-caret-position="432">
+          <caret line="94" column="25" lean-forward="true" selection-start-line="94" selection-start-column="25" selection-end-line="94" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/GoodsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2145">
+          <caret line="70" column="5" lean-forward="false" selection-start-line="70" selection-start-column="5" selection-end-line="70" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/RestaurantTablesController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2652">
+          <caret line="79" column="22" lean-forward="false" selection-start-line="79" selection-start-column="22" selection-end-line="79" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/VipController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/AdminService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/impl/AdminServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/impl/DiscountServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mapper/AdminMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="6" column="33" lean-forward="false" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="33" />
+          <folding>
+            <marker date="1561351258515" expanded="true" signature="298:400" ph="select admin... admin" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mapper/AdminMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mapper/CustomerChoosedMenuMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mapper/CustomerChoosedMenuMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding>
+            <marker date="1561689198966" expanded="true" signature="693:753" ph="select ccmId... CustomerChoosedMenu" />
+            <marker date="1561689198966" expanded="true" signature="882:965" ph="select ccmId... CustomerChoosedMenu" />
+            <marker date="1561689198966" expanded="true" signature="1042:1112" ph="select IFNUL... customerChoosedMenu" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/1.0ba109126c5ee4d722dd.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2613">
+          <caret line="67" column="0" lean-forward="false" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/applicationContext-controller.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="2" column="11" lean-forward="true" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/applicationContext-Dao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1017">
+          <caret line="57" column="0" lean-forward="true" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
           <folding />
         </state>
       </provider>

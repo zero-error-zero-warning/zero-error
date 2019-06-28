@@ -40,6 +40,8 @@ public class CustomerController {
 		int  vipId1=Integer.parseInt(map.get("checkOutData").get("vipId"));
 		int  waterNumId=Integer.parseInt(map.get("checkOutData").get("waterNumId"));
 		float sumPrice=Float.parseFloat(map.get("checkOutData").get("sumPrice"));
+
+		System.out.println(sumPrice);
 		float discountSumPrice=Float.parseFloat(map.get("checkOutData").get("discountSumPrice"));
 		Date date=new Date();
 		SimpleDateFormat f=new SimpleDateFormat("yyyy-MM-dd");
