@@ -47,15 +47,7 @@
     </bean>
 
 
-
-
-
-    <!--使用注解  @Autowired的声明   -->
-    <bean class="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor" />
-
-
-
-
+    <!--加载静态资源-->
     <mvc:default-servlet-handler />
     <mvc:resources location="static/css" mapping="/js/**" />
     <mvc:resources location="static/fonts" mapping="/css/**" />

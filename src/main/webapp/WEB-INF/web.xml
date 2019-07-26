@@ -58,6 +58,7 @@
     </init-param>
     <load-on-startup>1</load-on-startup>   <!--配置服务器启动后立即加载springmvc配置文件-->
   </servlet>
+
   <servlet-mapping>
     <servlet-name>springMVC</servlet-name>
     <url-pattern>/</url-pattern>    <!--拦截一切-->
@@ -66,10 +67,6 @@
 
 
 
-    <servlet-mapping>
-        <servlet-name>default</servlet-name>
-        <url-pattern>*.jpg</url-pattern>
-    </servlet-mapping>
 
 
 
